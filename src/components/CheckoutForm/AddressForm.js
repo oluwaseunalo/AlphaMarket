@@ -8,7 +8,7 @@ import FormInput from './CustomTextField'
 
 
 
-const AddressForm = ({checkoutToken}) => {
+const AddressForm = ({checkoutToken, next}) => {
     const [shippingCountries, setShippingCountries] = useState([]);
     const [shippingCountry, setShippingCountry] = useState('');
     const [shippingSubdivisions, setShippingSubdivisions] = useState([]);
@@ -69,7 +69,7 @@ const fetchShippingOptions = async (checkoutTokenId, country, region = null) => 
         <>
             <Typography variant='h6' gutterBottom>Shipping Address</Typography>
             <FormProvider {...methods}>
-                <form onSubmit=''>
+                <form onSubmit={methods.handleSubmit((data) => next({...data, shippingCountry, shippingSubdivision, shippingOption}))}>
                     <Grid container spacing={3}>
                         <FormInput  name='firstName' label='First name'/>
                         <FormInput  name='lastName' label='Last name'/>
