@@ -1,5 +1,5 @@
 import React from 'react'
-import {Typograpghy, Button, Divider, Typography} from '@material-ui/core'
+import {Button, Divider, Typography} from '@material-ui/core'
 import {Elements, CardElement, ElementsConsumer} from '@stripe/react-stripe-js'
 import {loadStripe} from '@stripe/stripe-js'
 
@@ -40,6 +40,8 @@ const PaymentForm = ({checkoutToken, backStep, onCaptureCheckout, nextStep, ship
                 }
 
     onCaptureCheckout(checkoutToken.id, orderData);
+
+    nextStep();
 
             }
     }
