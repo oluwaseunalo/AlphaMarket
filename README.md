@@ -18,4 +18,4 @@ AlphaMarket is an e-commerce web application built with create-react-app, Commer
 - Managed Products, Cart, and Checkout with Commercejs as the Backend
 - Set up payment with Stripe
 - Used Material UI Design System
-- The web app is hosted on Netlify. Click [here](https://alphamarket.netlify.app/)to open.
+- The web app is hosted on Netlify. Click [here](https://alphamarket.netlify.app/) to open.
