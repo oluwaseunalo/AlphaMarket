@@ -1,15 +1,21 @@
-Photo by <a href="https://unsplash.com/@revolt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">REVOLT</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+## AlphaMarket
 
-Photo by <a href="https://unsplash.com/@causeweplay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Storek</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+AlphaMarket is an e-commerce web application built create-react-app, Commercejs and Stripe.
 
-Photo by <a href="https://unsplash.com/@usama_1248?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">USAMA AKRAM</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+## Installation
 
-Photo by <a href="https://unsplash.com/@usama_1248?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">USAMA AKRAM</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Clone this repository or download ZIP from GitHub
+- Install all the dependencies in the package.json using the command npm install
+- Open the local server using npm start.
 
-Photo by <a href="https://unsplash.com/@jeff_tumale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeff Tumale</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+## Basic Operations
 
-Photo by <a href="https://unsplash.com/@ryancp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Plomp</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@usama_1248?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">USAMA AKRAM</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@oxstreet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ox Street</a> on <a href="https://unsplash.com/s/photos/sneaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Set up the project with create-react-app
+- Used Functional Components
+- State Management with Hooks
+- Lifecycle Callbacks with useEffect Hook
+- Used BrowserRouter, Switch and Route from react-router-dom for Routing
+- Managed Products, Cart, and Checkout with Commercejs as the Backend
+- Set up payment with Stripe
+- Used Material UI Design System
+- The web app is hosted on Netlify. Click [here]()to open.
