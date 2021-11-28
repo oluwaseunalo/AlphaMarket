@@ -1,6 +1,6 @@
 ## AlphaMarket
 
-AlphaMarket is an e-commerce web application built create-react-app, Commercejs and Stripe.
+AlphaMarket is an e-commerce web application built with create-react-app, Commercejs and Stripe.
 
 ## Installation
 
